@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <script src="https://kit.fontawesome.com/ead553880b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>UI UX Designer</span></p>
+                <h1>Hi, I'm <span>Mohamed</span></h1>
+                <h2>Esmail from EGYPT</h2>
+            </div>
+<!---->
+            <div id="Contact">
+
+                    <div class="row">
+                        <div class="contact-left">
+   
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/profile.php?id=100041253590245"><i class="fa-brands fa-facebook"></i></a>             <!--facebook-->
+                                <a href="https://www.instagram.com/muhammed.ismail__/"><i class="fa-brands fa-instagram"></i></a>                       <!--instgram-->
+                                <a href="www.linkedin.com/in/mohamedesmail75"><i class="fa-brands fa-linkedin"></i></a>                                 <!--Linkedin-->
+                                <a href="www.behance.net/mohamedesmail75"><i class="fa-brands fa-square-behance"></i></a>                               <!--Behance -->
+                                <a href="#"><i class="fa-brands fa-dribbble"></i></i></a>                                                               <!--dribbble -->
+                            </div>
+                            
+                            <div class="contactvia">
+                                <p><i class="fa-solid fa-envelope"></i>mohammedesmail440@gmail.com</p>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i>Contact via what'sapp</a>
+                             
+                            </div>
+                            
+                        </div>
+                    </div>
+            </div>
+<!---->            
+        </div>
+    </div>
+
+<!-- ------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/phone-background.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet
+                        sapien quis, elementum molestie tellus. Pellentesque habitant morbi tristique senectus et netus et
+                        malesuada fames ac turpis egestas. Mauris eleifend magna id ante convallis mattis. Quisque in sem
+                        tristique, dictum sapien et, accumsan libero.</p>
+
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>User Interface Design</span><br>Designing Web/App interfaces</li>
+                                <li><span>User Experience Research</span><br>Building iOS apps</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>October 2024 - current</span><br>UI/UX Lead at Join Solutions</li>
+                                <li><span>August 2024 - Septemper 2025</span><br>UI/UX Design trainee at Join Solutions</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>October 2022 - October 2026</span><br>Computer science and information technology Ain Shams university</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------services------------ -->
+ 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <h2><i class="ti ti-browser"></i>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                
+                <h2><i class="ti ti-crop"></i>UX Research</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                
+                <h2><i class="ti ti-device-mobile-code"></i>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+
+<!-- ------------portfolio------------ -->
+ 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="ti ti-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Movies app</h3>
+                    <p>The app connects you yo the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="ti ti-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online shopping app</h3>
+                    <p>The app connects you yo the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="ti ti-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+ <div class="copyright">
+        <p>Copyright © Made by  MohamedEsmail<br></p>
+    </div>
+
+
+    <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks)
+                {
+                        tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+    </script>
+
+
+    <script>
+            var sidemeu = document.getElementById ("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            
+            function closemenu(){
+                sidemeu. style.right = "-200px";
+            }
+    </script>
+
+</body>
+
+</html>
